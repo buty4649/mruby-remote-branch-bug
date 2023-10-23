@@ -1,0 +1,12 @@
+---
+mruby:
+  version: 3.2.0
+  release_no: 30200
+  git_commit: f85a3aff2bd417d8a25f6633f2c3c87ec5930abc
+builds:
+  host:
+    https://github.com/mattn/mruby-json.git:
+      url: https://github.com/mattn/mruby-json.git
+      branch: master
+      commit: f99d9428025469f2400f93c53b185f65f963e507
+      version: 0.0.0
